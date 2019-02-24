@@ -16,6 +16,7 @@ public class CourseApiApplication {
         TopicController topicController = new TopicController();
         topicController.getAllTopics();
 
+
     }
 
 }
