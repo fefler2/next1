@@ -32,6 +32,7 @@ class ClassMathTest {
     @Test
     void multiply() {
         assertEquals(22,classMath.multiply(2,11));
+        // a
     }
 
     @Test
@@ -41,5 +42,6 @@ class ClassMathTest {
 
         assertFalse(classMath.isGreater(3,4));
         assertFalse(classMath.isGreater(3,3));
+
     }
 }
