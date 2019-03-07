@@ -1,21 +1,21 @@
 package springBootProject.courseapi;
 
 
+import java.security.Signature;
+
 public class Singleton {
+
 
     private static Singleton singleton;
 
-    private Singleton() {
+    private Singleton(){
 
     }
-
-
     public static Singleton getSingleton(){
-        if (singleton == null){
+        if (singleton==null){
             singleton = new Singleton();
         }
-        return  singleton;
+        return singleton;
     }
-
 
 }

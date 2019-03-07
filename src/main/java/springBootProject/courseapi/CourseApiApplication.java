@@ -55,12 +55,11 @@ public class CourseApiApplication extends Thread{
 
 
         CourseApiApplication courseApiApplication = new CourseApiApplication();
-        courseApiApplication.abc.fizzBuzz2();
 
 
-//
-//        TopicController topicController = new TopicController();
-//        topicController.getAllTopics();
+
+        TopicController topicController = new TopicController();
+        topicController.getAllTopics();
 
 
     }
