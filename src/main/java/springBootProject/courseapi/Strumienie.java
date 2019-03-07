@@ -13,15 +13,15 @@ public class Strumienie {
                 new Mieszkanie("Wroclaw", "Psie Pole", "Ulica na Psim Polu",
                         3, 67.0f, true,  456000),
 
-                new Mieszkanie("Wroclaw", "Psie Pole", "Ulica na Psim Polu",
-                        3, 67.0f, true,  456000),
+                new Mieszkanie("Wroclaw", "Krzyki", "Ulica na Krzykach",
+                        2, 54.0f, false,  381000),
 
-                new Mieszkanie("Wroclaw", "Psie Pole", "Ulica na Psim Polu",
-                        3, 67.0f, true,  456000),
+                new Mieszkanie("Wroclaw", "Bialoleka", "Ulica w Bialolece",
+                        4, 74.0f, false,  622000),
 
-                new Mieszkanie("Wroclaw", "Psie Pole", "Ulica na Psim Polu",
-                        3, 67.0f, true,  456000),
-        )
+                new Mieszkanie("Wroclaw", "Dzielnia", "Ulica w Dzielnicy",
+                        5, 84.0f, false,  901000)
+        );
 
 
 
