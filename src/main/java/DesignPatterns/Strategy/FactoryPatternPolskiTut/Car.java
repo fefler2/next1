@@ -1,6 +1,10 @@
 package DesignPatterns.Strategy.FactoryPatternPolskiTut;
 
 public class Car {
+    private Car(Builder builder) {
+        this.color  = builder.color;
+    }
+
     public String getColor() {
         return color;
     }
@@ -11,19 +15,20 @@ public class Car {
     public static class Builder {
         private String color;
 
-        public Builder(){
 
-        }
 
         public Builder color(String color){
             this.color = color;
             return this;
         }
 
-        public static void main(String[] args) {
-            System.out.println("abc");
-
+        
+        public Car build(){
+            return new Car(this);
         }
+        
+
+
 
     }
 
